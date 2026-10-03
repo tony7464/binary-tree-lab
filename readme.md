@@ -4,6 +4,24 @@
 
 ---
 
+## How to Run
+
+- **Requirements:** Python 3.8+, standard library only, no dependencies.
+- From the repo root, run:
+
+```bash
+python binary_tree_tests.py
+```
+
+- **Success** looks like: `Ran 2 tests ... OK`.
+
+## Solution Approach
+
+- **`max_depth`:** recursive post-order (O(n) time, O(h) space).
+- **`lowest_common_ancestor`:** walk down using BST ordering (O(h) time, O(1) space).
+
+---
+
 ## Overview
 
 In this lab, you'll implement two classic binary tree problems commonly seen in technical interviews and real-world applications:
@@ -61,8 +79,9 @@ This file contains unit tests to validate your implementations. You do not need 
 
 1. **Fork and Clone**
    ```bash
-   git clone https://github.com/your-org/binary-tree-lab.git
+   git clone https://github.com/tony7464/binary-tree-lab.git
    cd binary-tree-lab
+   ```
 
 ## Open and Run
 
